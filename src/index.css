@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700;900&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Syne", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer utilities {
+  .skew-tag {
+    transform: skewX(-10deg);
+  }
+  .skew-btn {
+    transform: skewX(-5deg);
+  }
+  .text-stroke {
+    -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.15);
+    color: transparent;
+  }
+}
+

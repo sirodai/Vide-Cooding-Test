@@ -1,0 +1,6 @@
+{
+  "name": "手渡し爆弾ゲーム",
+  "description": "4人で輪になってランダムに爆発する爆弾を渡し合うアクションゲーム。方向キーでその方向にいる相手へ手渡し、爆発時に持っていた人が負け抜けとなります。3人、2人と減っていく負け抜けサバイバル戦です。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
